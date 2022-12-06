@@ -43,7 +43,7 @@ const onClickAdd = () => {
     //liタグの子要素に各要素を設定
     addTarget.appendChild(p);
     addTarget.appendChild(backButton);
-    //console.log(addTarget);
+    console.log(addTarget);
 
     //完了リストに追加
     document.getElementById("complete-list").appendChild(addTarget);
